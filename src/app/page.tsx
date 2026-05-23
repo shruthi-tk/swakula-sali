@@ -154,9 +154,11 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <Button variant="outline" className="gap-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                <BookOpen className="h-4 w-4" /> Read our History
-              </Button>
+              <Link href="/history">
+                <Button variant="outline" className="gap-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                  <BookOpen className="h-4 w-4" /> Read our History
+                </Button>
+              </Link>
             </div>
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl relative">
